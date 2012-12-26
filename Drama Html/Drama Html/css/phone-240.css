@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*gutter = 10px | 2.43902%
+1 = 60px | 14.63414%
+2 = 130px | 31.70731%
+3 = 200px | 48.78048%
+4 = 270px | 65.85365%
+5 = 340px | 82.92682%
+6 = 410px | 100%*/
+
+.Home-background {
+	/*background:#CCCCCC url(../images/iPhone/drama_iphone_design2_mainbackground@2x.png) no-repeat center top;*/
+}
+#Home #page-head1 .page-div-640 {
+	position:relative;
+	margin:0 auto;
+}
+#Home #page-head1 .page-div-640 img {
+	position:relative;
+}
+#Home #page-head1 .page-div-640 img:nth-of-type(2) {
+	width:25%;
+	margin:0 auto;
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+}
+#Home #page-cont1 .page-div-640 div.slide {
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	padding:0;
+}
+#Home #page-cont1 .page-div-640 div.slide img {
+	width:45%;
+}
+#Home #page-cont1 .page-div-640 ul#menuItms {
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+#Home #page-cont1 .page-div-640 ul#menuItms li:nth-child(n) {
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:13.33333%;
+	float:left;
+	display:block;
+	text-align:center;
+}
+#Home #page-cont1 .page-div-640 ul#menuItms li:nth-child(n) a {
+	width:100%;
+}
+#Home #page-cont1 .page-div-640 ul#menuItms li:nth-child(n) a img {
+	width:80%;
+}
+#Home-foot1 {
+	margin-bottom:-.3em;
+	position:fixed;
+	bottom:0;
+}

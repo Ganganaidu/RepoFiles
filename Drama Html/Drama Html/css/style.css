@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+img {
+	width:100%;
+}
+#header {
+	max-width:100%;
+	position:relative;
+}
+#content {
+	max-width:100%;
+	position:relative;
+}
+#footer {
+	max-width:100%;
+	position:relative;
+}
